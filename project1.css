@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  margin-left: 16px;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 150px;
+  text-align: center;
+  margin: 0;
+  margin-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  color: grey;
+  margin: 0;
+  line-height: 25px;
+}
+
+p span {
+  font-style: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+p span a {
+  text-decoration: none;
+}
+
+header h3 {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+form {
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+form label {
+  font-size: 16px;
+}
+
+.submit-button {
+  background-color: blue;
+  border: 2px solid blue;
+  border-style: none;
+  border-radius: 4px;
+  padding: 8px 150px;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+p.spec {
+  text-align: center;
+}
+
+.google-button, .github-button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 33px;
+  border-radius: 8px;
+}

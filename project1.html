@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1</title>
+  
+  <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+  <h1>VIGOR</h1>
+  <h2>VIGOR Dev Admissions Portal</h2>
+  <h3>Welcome!!!</h3>
+  <p>This is the VIGOR Dev Admission Portal, your first step towards gaining/aquiring 
+    some of today's most sought-after skills and joining our incredible talent 
+    community for fantasy knowledge.
+  </p>
+  <p>To join our program, you need to creat an account or log in back to previous account 
+    by entering your email address, phone number and password.
+  </p>
+  <p>If you have already have an account, scroll down and click the "LOG IN" button to 
+    access your account.
+  </p>
+  <p>>If you want to find out more about VIGOR Dev and our admissions process, 
+    <span><a href="https://www.google.com" targret="_blank">click here</a></span>
+  </p>
+
+  <header>
+    <h3>Sign Up Form</h3>
+  </header>
+  <form>
+    <label for="firstname">First name:</label> <br>
+    <input type="text" id="firstname" name="firstname" required> <br><br>
+
+    <label for="lastname">Last name:</label> <br>
+    <input type="text" id="lastname" name="lastname" required> <br><br>
+
+    <label for="email">Email:</label> <br>
+    <input type="email" id="email" name="email" required> <br><br>
+
+    <label for="phonenumber">Phone Number:</label> <br>
+    <input type="number" name="phonenumber" id="phonenumber" required> <br><br>
+    
+    <label for="password">Password:</label> <br>
+    <input type="password" id="password" name="password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}" required> <br><br>
+
+    <label for="password">Password confirmation:</label> <br>
+    <input type="password" id="password" name="passwordconfirmation" title="min. of 8 characters with atleast an uppercase, a lower case and a digit" required> <br><br>
+    
+    <input class="submit-button" type="submit" value="Sign Up">
+    
+  </form>
+
+  <p class="spec">Or continue with</p>
+
+  <input class="google-button" type="button" value="Google">
+  <input class="github-button" type="button" value="GitHub">
+
+  <p>Already have an account? <a href="https://www.vigordev.com">Log in</a></p>
+
+  <p>copywrite @ 2024 Sand Technologies. Priviledged and conidential. All rights reserved.</p>
+
+  <div style="display: flex; margin: 30px;">
+    <div style="border-bottom: 1px solid red; width: 20rem; "> </div>
+    <p> horizontal rule</p>
+    <div style="border-bottom: 1px solid red; width: 20rem;"></div>
+  </div>
+</body>
+</html>
